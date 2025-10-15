@@ -1,5 +1,4 @@
 import streamlit as st
-from langchain.chat_models import ChatOpenAI
 from langchain_google_genai import GoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
@@ -461,4 +460,5 @@ def main():
         )
 
 if __name__ == "__main__":
+
     main()
